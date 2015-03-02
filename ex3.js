@@ -25,3 +25,8 @@ return current.data;
 				nums.insert(22);
 				var min = nums.getMin();
 
+print("The minimum value of the BST is: " + min);
+print("\n");
+var max = nums.getMax();
+print("The maximum value of the BST is: " + max);
+
