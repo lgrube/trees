@@ -44,3 +44,12 @@ function insert(data) {
  }
 }
 
+function getSmallest(node) {
+	if(node.left == null) {
+		return node;
+	}
+	else {
+		return getSmallest(node.left);
+	}
+}
+
