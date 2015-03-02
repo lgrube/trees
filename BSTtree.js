@@ -53,3 +53,10 @@ function getSmallest(node) {
 	}
 }
 
+function max() {
+	var max = this.root;
+	while(current.right !==null) {
+		current = current.right;
+	}
+	return current.data;
+}
